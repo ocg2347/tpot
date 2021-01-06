@@ -588,7 +588,7 @@ Function used to evaluate the quality of a given pipeline for the regression pro
 <br /><br/>
 'neg_median_absolute_error', 'neg_mean_absolute_error', 'neg_mean_squared_error', 'r2'
 <br /><br/>
-Note that we recommend using the <em>neg</em> version of mean squared error and related metrics so TPOT will minimize (instead of maximize) the metric.
+Note that we recommend using the <em>neg</em> version of mean squared error and related metrics so TPOT will maximize (instead of minimize) the metric.
 <br /><br/>
 If you would like to use a custom scorer, you can pass the callable object/function with signature <em>scorer(estimator, X, y)</em>.
 <br /><br/>
